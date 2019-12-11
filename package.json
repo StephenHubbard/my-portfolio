@@ -16,11 +16,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jrmccann2/my-portfolio.git"
+    "url": "git+https://github.com/StephenHubbard/my-portfolio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jrmccann2/my-portfolio/issues"
+    "url": "https://github.com/StephenHubbard/my-portfolio/issues"
   }
 }
