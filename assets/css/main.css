@@ -2592,7 +2592,7 @@ input, select, textarea {
 		border: 0;
 	}
 
-		.image[data-position] img, #carousel1, #carousel2, #carousel3 {
+		.image[data-position] img, #carousel1, #carousel2, #carousel3, #carousel4 {
 			-moz-object-fit: cover;
 			-webkit-object-fit: cover;
 			-ms-object-fit: cover;
@@ -4282,7 +4282,7 @@ input, select, textarea {
 	}
 
 		#banner > .content {
-			background-color: #3a4b99;
+			/* background-color: #3a4b99; */
 			color: #ffffff;
 			-moz-transition: -moz-transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 			-webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
