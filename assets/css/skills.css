@@ -20,6 +20,14 @@ html, body {
   /* height: 100%; */
 }
 
+.phone-skills {
+    display: inline;
+}
+
+.monitor-skills {
+    display: none;
+}
+
 body {
   /* position: relative;
   overflow: hidden;
@@ -188,3 +196,12 @@ body {
   -webkit-transform-origin: right;
           transform-origin: right;
 }
+
+/* @media (max-width: 425px) {
+    .monitor-skills {
+        display: none;
+    }
+    .phone-skills {
+        display: inline;
+    }
+} */
