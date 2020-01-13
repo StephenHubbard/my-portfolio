@@ -15,8 +15,12 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+
 
   </head>
   <body class="is-preload">
@@ -105,125 +109,74 @@
       </section>
 
       <!-- Section -->
-      <section class="main" id="Skills">
-        <header>
-          <h2>Skills</h2>
-          <p></p>
-        </header>
-        <div class="inner">
-          <ul class="faces">
-            <li>
-              <span class="image"
-                ><img src="images/javascript-original.svg" alt="javascript logo"
-              /></span>
-              <h3>Javascript</h3>
-              <p></p>
-            </li>
-            <li>
-              <span class="image"
-                ><img src="images/react-original.svg" alt="react logo"
-              /></span>
-              <h3>React</h3>
-              <p></p>
-            </li>
-            <li>
-              <span class="image"
-                ><img src="images/nodejs-original.svg" alt="node logo"
-              /></span>
-              <h3>Node</h3>
-              <p></p>
-            </li>
-            <li>
-              <span class="image"
-                ><img src="images/html5-original.svg" alt="html5 logo"
-              /></span>
-              <h3>HTML5</h3>
-              <p></p>
-            </li>
-            <li>
-              <span class="image"
-                ><img src="images/css3-original.svg" alt="css3 logo"
-              /></span>
-              <h3>CSS3</h3>
-              <p></p>
-            </li>
-            
-          </ul>
+      <section class="main" id="skills">
+        <div class="skills-body">
+        <div class="slider | js-drag-area">
+          <div class="slider__inner | js-slider">
+            <div class="slide | js-slide">
+              <div class="slide__inner | js-slide__inner">
+                  <img class="js-slide__img" src="./images/shopify-logo.png" alt="" crossorigin="anonymous" draggable="false">
+              </div>
+            </div>
+            <div class="slide | js-slide" style="left: 120%;">
+              <div class="slide__inner | js-slide__inner">
+                  <img class="js-slide__img" src="./images/chartjsicon.jpg" alt="" crossorigin="anonymous" draggable="false">
+              </div>
+            </div>
+            <div class="slide | js-slide" style="left: 240%;">
+              <div class="slide__inner | js-slide__inner">
+                  <img class="js-slide__img" src="./images/git-icon.jpg" alt="" crossorigin="anonymous" draggable="false">
+              </div>
+            </div>
+            <div class="slide | js-slide" style="left: 360%;">
+              <div class="slide__inner | js-slide__inner">
+                  <img class="js-slide__img" src="./images/socket-icon.png" alt="" crossorigin="anonymous" draggable="false">
+              </div>
+            </div>
+            <div class="slide | js-slide" style="left: 480%;">
+              <div class="slide__inner | js-slide__inner">
+                  <img class="js-slide__img" src="./images/wordpress-icon.PNG" alt=""crossorigin="anonymous"  draggable="false">
+              </div>
+            </div>
+            <!-- <div class="slide | js-slide" style="left: 600%;">
+              <div class="slide__inner | js-slide__inner">
+                  <img class="js-slide__img" src="" alt="" crossorigin="anonymous" draggable="false">
+              </div>
+            </div>
+            <div class="slide | js-slide" style="left: 720%;">
+              <div class="slide__inner | js-slide__inner">
+                  <img class="js-slide__img" src="" alt="" crossorigin="anonymous" draggable="false">
+              </div>
+            </div>
+            <div class="slide | js-slide" style="left: 840%;">
+              <div class="slide__inner | js-slide__inner">
+                  <img class="js-slide__img" src="" alt="" crossorigin="anonymous" draggable="false">
+              </div>
+            </div> -->
+          </div>
         </div>
-        <div class="inner">
-          <ul class="faces">
-            
-            <li> 
-              <span class="image"
-                ><img src="images/heroku-original.svg" alt="css3 logo"
-              /></span>
-              <h3>Heroku</h3>
-              <p></p>
-            </li>
-            <li>
-              <span class="image"
-                ><img src="images/postgresql-original.svg" alt="postgresql logo"
-              /></span>
-              <h3>PostgreSQL</h3>
-              <p></p>
-            </li>
-            
-            <li>
-              <span class="image"
-                ><img src="images/redux-original.svg" alt="redux logo"
-              /></span>
-              <h3>Redux</h3>
-              <p></p>
-            </li>
-            <li>
-              <span class="image"
-                ><img src="images/photoshop-cc.svg" alt="Photoshop logo"
-              /></span>
-              <h3>Photoshop</h3>
-              <p></p>
-            </li>
-            <li>
-              <span class="image"
-                ><img src="images/socket-icon.png" alt="socket logo"
-              /></span>
-              <h3>Socket.io</h3>
-              <p></p>
-            </li>
-          </ul>
+        
+        <div class="titles">
+        <div class="titles__title titles__title--proxy">Lorem ipsum</div>
+        <div class="titles__list | js-titles">
+          <div class="titles__title | js-title">Heroku</div>
+          <div class="titles__title | js-title">ChartJS</div>
+          <div class="titles__title | js-title">git</div>
+          <div class="titles__title | js-title">socket.io</div>
+          <div class="titles__title | js-title">WordPress</div>
+          <div class="titles__title | js-title"></div>
+          <div class="titles__title | js-title"></div>
+          <div class="titles__title | js-title"></div>
+          <div class="titles__title | js-title"></div>
         </div>
-        <div class="inner">
-          <ul class="faces">
-            <li>
-              <span class="image"
-                ><img src="images/express-original.svg" alt="express logo"
-              /></span>
-              <h3>Express</h3>
-              <p></p>
-            </li>
-            <li>
-              <span class="image"
-                ><img src="images/chartjsicon.jpg" alt="chartjs logo"
-              /></span>
-              <h3>ChartJS</h3>
-              <p></p>
-            </li>
-            <li>
-              <span class="image"
-                ><img src="images/wordpress-icon.PNG" alt="chartjs logo"
-              /></span>
-              <h3>WordPress</h3>
-              <p></p>
-            </li>
-            <li>
-              <span class="image"
-                ><img src="images/shopify-logo-2.png" alt="chartjs logo"
-              /></span>
-              <h3>Shopify</h3>
-              <p></p>
-            </li>
-          </ul>
-        </div>
-      </section>
+      </div>
+
+      <div class="progress">
+        <div class="progress__line | js-progress-line"></div>
+        <div class="progress__line | js-progress-line-2"></div>
+      </div>
+    </div>
+    </section>
 
       <!-- Section -->
       <section class="main accent2" id="Projects">
@@ -718,7 +671,11 @@
     ></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/jquery.parallax.min.js'></script>
+    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js'></script>
+    <script  src="./assets/js/skills.js"></script>
     <script  src="./assets/js/script.js"></script>
+
 
   </body>
 </html>
