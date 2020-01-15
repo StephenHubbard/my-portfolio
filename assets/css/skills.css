@@ -34,13 +34,6 @@
 }
 
 @media (max-width: 425px) {
-  /* .phone-skills {
-    display: inline;
-  }
-
-  .monitor-skills {
-    display: none;
-  } */
 
   .carousel-img {
     width: 100px;
@@ -49,6 +42,10 @@
 
   .carousel-div {
     width: 100px !important;
+  }
+
+  .carousel-div h5 {
+    font-size: 100%;
   }
 
   .wrapper-skills .carousel-skills {
