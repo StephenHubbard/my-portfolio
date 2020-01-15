@@ -1,5 +1,16 @@
-#container-custom {
-    height: 100vh !important;
-    width: 100vw !important;
-    position: absolute;
+
+#flex-i-div {
+    width: 200px;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    margin: auto;
+}
+
+#flex-i-div h2 {
+    width: 100%;
+}
+
+#flex-i-div .fas {
+    width: 100%;
 }
