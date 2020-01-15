@@ -34,11 +34,37 @@
 }
 
 @media (max-width: 425px) {
-  .phone-skills {
+  /* .phone-skills {
     display: inline;
   }
 
   .monitor-skills {
     display: none;
+  } */
+
+  .carousel-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .carousel-div {
+    width: 100px !important;
+  }
+
+  .wrapper-skills .carousel-skills {
+    /* height: 110px; */
+  }
+
+  .monitor-skills {
+    padding-bottom: 60px !important;
+  }
+
+  .slick-list {
+    height: 140px !important;
+  }
+
+  .slick-dots {
+    width: 1000px;
+    transform: translate(-300px, 0px);
   }
 }

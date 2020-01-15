@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.carousel-skills').slick({
-    slidesToShow: 3,
+    slidesToShow: 1,
     dots:true,
     centerMode: true,
     });
