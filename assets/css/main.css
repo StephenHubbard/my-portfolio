@@ -51,6 +51,8 @@ table {
 	border-spacing: 0;
 }
 
+
+
 body {
 	-webkit-text-size-adjust: none;
 }
@@ -4621,13 +4623,13 @@ input, select, textarea {
 
 			}
 
-		@media screen and (max-width: 736px) {
+	@media screen and (max-width: 736px) {
 
-			#navPanel nav {
-				padding: 2.5em 1.75em;
-			}
-
+		#navPanel nav {
+			padding: 2.5em 1.75em;
 		}
+
+	}
 
 	body.is-navPanel-visible #wrapper {
 		pointer-events: none;
@@ -4641,4 +4643,26 @@ input, select, textarea {
 		-ms-transform: translateX(0);
 		transform: translateX(0);
 		visibility: visible;
+	}
+
+	#youtube-vid {
+		margin-top: 100px;
+	}
+
+	@media screen and (max-width: 425px) {
+		iframe {
+			width: 320px;
+		}
+
+		#youtube-vid {
+			margin-top: 0px;
+		}
+
+		.weather-app {
+			margin-top: 100px;
+		}
+	}
+
+	#AboutMe {
+		padding-bottom: 10px !important;
 	}

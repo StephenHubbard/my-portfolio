@@ -16,7 +16,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/skills.css">
@@ -109,76 +110,31 @@
       </section>
 
       <!-- Section -->
-      <section class="main monitor-skills" id="skills">
-        <div class="skills-body">
-        <div class="slider | js-drag-area">
-          <div class="slider__inner | js-slider">
-            <div class="slide | js-slide">
-              <div class="slide__inner | js-slide__inner">
-                  <img class="js-slide__img" src="./images/shopify-logo.png" alt="" crossorigin="anonymous" draggable="false">
-              </div>
-            </div>
-            <div class="slide | js-slide" style="left: 120%;">
-              <div class="slide__inner | js-slide__inner">
-                  <img class="js-slide__img" src="./images/chartjsicon.jpg" alt="" crossorigin="anonymous" draggable="false">
-              </div>
-            </div>
-            <div class="slide | js-slide" style="left: 240%;">
-              <div class="slide__inner | js-slide__inner">
-                  <img class="js-slide__img" src="./images/git-icon.jpg" alt="" crossorigin="anonymous" draggable="false">
-              </div>
-            </div>
-            <div class="slide | js-slide" style="left: 360%;">
-              <div class="slide__inner | js-slide__inner">
-                  <img class="js-slide__img" src="./images/socket-icon.png" alt="" crossorigin="anonymous" draggable="false">
-              </div>
-            </div>
-            <div class="slide | js-slide" style="left: 480%;">
-              <div class="slide__inner | js-slide__inner">
-                  <img class="js-slide__img" src="./images/wordpress-icon.PNG" alt=""crossorigin="anonymous"  draggable="false">
-              </div>
-            </div>
-            <!-- <div class="slide | js-slide" style="left: 600%;">
-              <div class="slide__inner | js-slide__inner">
-                  <img class="js-slide__img" src="" alt="" crossorigin="anonymous" draggable="false">
-              </div>
-            </div>
-            <div class="slide | js-slide" style="left: 720%;">
-              <div class="slide__inner | js-slide__inner">
-                  <img class="js-slide__img" src="" alt="" crossorigin="anonymous" draggable="false">
-              </div>
-            </div>
-            <div class="slide | js-slide" style="left: 840%;">
-              <div class="slide__inner | js-slide__inner">
-                  <img class="js-slide__img" src="" alt="" crossorigin="anonymous" draggable="false">
-              </div>
-            </div> -->
-          </div>
-        </div>
-        
-        <div class="titles">
-        <div class="titles__title titles__title--proxy">Lorem ipsum</div>
-        <div class="titles__list | js-titles">
-          <div class="titles__title | js-title">Heroku</div>
-          <div class="titles__title | js-title">ChartJS</div>
-          <div class="titles__title | js-title">git</div>
-          <div class="titles__title | js-title">socket.io</div>
-          <div class="titles__title | js-title">WordPress</div>
-          <div class="titles__title | js-title"></div>
-          <div class="titles__title | js-title"></div>
-          <div class="titles__title | js-title"></div>
-          <div class="titles__title | js-title"></div>
-        </div>
-      </div>
+      <section class="main monitor-skills">
+            <div class="wrapper-skills">
+              <h2>Skills<h2>
+              <div class="carousel-skills">
+                  <div class="carousel-div"><img class="carousel-img" src="./images/css3-original.svg"></div>
+                  <div class="carousel-div"><img class="carousel-img" src="./images/express-original.svg"></div>
+                  <div class="carousel-div"><img class="carousel-img" src="./images/git-icon.png"></div>
+                  <div class="carousel-div"><img class="carousel-img" src="./images/heroku-original.svg"></div>
+                  <div class="carousel-div"><img class="carousel-img" src="./images/html5-original.svg"></div>
+                  <div class="carousel-div"><img class="carousel-img" src="./images/javascript-original.svg"></div>
+                  <div class="carousel-div"><img class="carousel-img" src="./images/nodejs-original.svg"></div>
+                  <div class="carousel-div"><img class="carousel-img" src="./images/photoshop-cc.svg"></div>
+                  <div class="carousel-div"><img class="carousel-img" src="./images/postgresql-original.svg"></div>
+                  <div class="carousel-div"><img class="carousel-img" src="./images/react-original.svg"></div>
+                  <div class="carousel-div"><img class="carousel-img" src="./images/shopify-logo-2.png"></div>
+                  <div class="carousel-div"><img class="carousel-img" src="./images/socket-io.svg"></div>
+                  <div class="carousel-div"><img class="carousel-img" src="./images/wordpress-icon.PNG"></div>
+                  <div class="carousel-div"><img class="carousel-img" src="./images/redux-original.svg"></div>
 
-      <div class="progress">
-        <div class="progress__line | js-progress-line"></div>
-        <div class="progress__line | js-progress-line-2"></div>
-      </div>
-    </div>
+          
+              </div>
+            </div>
     </section>
 
-    <section class="main phone-skills" id="Skills">
+    <section class="main phone-skills">
       <header>
         <h2>Skills</h2>
         <p></p>
@@ -712,7 +668,43 @@
               </div>
             </div>
           </article>
-        </div>
+          <article class="post">
+            <div class="content ">
+              <header class="weather-app">
+                <span class="category">React-Native</span>
+                <h3>Simple Weather</h3>
+                <br />
+              </header>
+              <p>
+                Weather Application using React-Native and Open Weather API.  Optimizing for both iOS and Android.  
+                <br />
+                <br />
+                <br /> React-Native | React-Hooks| Open Weather API | Google API 
+                <br />
+                <br /><a
+                  href="https://github.com/StephenHubbard/Susie-Portfolio"
+                  target="_blank"
+                  >GitHub Repo</a
+                >
+              </p>
+              <ul class="actions">
+                <li>
+                  <a
+                    href="https://stephenhubbard.github.io/Susie-Portfolio/index.html"
+                    target="_blank"
+                    class="button next"
+                    >App Store (Coming Soon)</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="image" data-position="center">
+              <div id="youtube-vid">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/eWso-HJ-RWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </article>
       </section>
 
       <!-- Section -->
@@ -768,7 +760,6 @@
     <!-- Scripts -->
     <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.min.js'></script>
-    <script  src="./assets/js/skills.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.dropotron.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
@@ -795,7 +786,12 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/jquery.parallax.min.js'></script>
     <script  src="./assets/js/script.js"></script>
-
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    <script  src="./assets/js/skills.js"></script>
 
   </body>
 </html>
