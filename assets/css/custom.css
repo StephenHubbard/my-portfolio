@@ -15,7 +15,9 @@
     width: 100%;
 }
 
-.footer-icons {
-    width: 200px !important;
-    height: 200px !important;
+@media screen and (max-width: 425px) {
+    #bottom-article {
+        width: 100% !important;
+        height: 100% !important;
+    }
 }
