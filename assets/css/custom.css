@@ -14,3 +14,8 @@
 #flex-i-div .fas {
     width: 100%;
 }
+
+.footer-icons {
+    width: 200px !important;
+    height: 200px !important;
+}
