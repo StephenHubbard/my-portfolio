@@ -5,6 +5,18 @@
   text-align:center;
 }
 
+.wrapper-skills:active {
+  cursor: grabbing;
+}
+
+.carousel-skills {
+  cursor: grab;
+}
+
+.carousel-skills:active {
+  cursor: grabbing;
+}
+
 .wrapper-skills .carousel-skills{
   width:100%;
   margin:0px auto;
@@ -46,10 +58,6 @@
 
   .carousel-div h5 {
     font-size: 100%;
-  }
-
-  .wrapper-skills .carousel-skills {
-    /* height: 110px; */
   }
 
   .monitor-skills {
